@@ -1,0 +1,4 @@
+portfolio,expected_return,volatility,sharpe
+Equal_Weight,0.40089188,0.11119338,3.42549062
+Global_Min_Variance,0.10973681,0.05719418,1.56898492
+Maximum_Sharpe,0.59392180,0.13349169,4.29930746

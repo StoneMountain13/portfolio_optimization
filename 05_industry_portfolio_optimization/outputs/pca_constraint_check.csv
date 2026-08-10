@@ -1,0 +1,17 @@
+metric,value
+budget_error,0.0
+min_weight,0.013887037071724116
+max_weight,0.050776083059546916
+max_abs_active_stock,0.01489738939775456
+one_way_turnover,0.04689760469068774
+gross_turnover,0.09379520938137548
+annualized_tracking_error,0.005087173265647991
+estimated_linear_cost,0.00011055094049994945
+estimated_impact_cost,5.162339031165992e-05
+sector_active_Finance,0.0012412431623639551
+sector_active_Industrial,0.010374179476494268
+sector_active_Technology,-0.011615422638858055
+style_active_size,-0.0013588967385222337
+style_active_value,0.01929382339643737
+style_active_momentum,0.011462779889836797
+style_active_quality,0.005716360065447454
