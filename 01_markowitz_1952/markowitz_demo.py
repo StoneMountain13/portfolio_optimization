@@ -23,7 +23,7 @@ from scipy.optimize import minimize
 # ------------------------------
 RANDOM_SEED = 20260800
 TRADING_DAYS = 252
-N_OBSERVATIONS = 126  # 约半年日频数据
+N_OBSERVATIONS = 96  # 约三年日频数据
 RISK_FREE_RATE = 0.02  # 年化无风险利率，仅用于最大夏普组合
 ASSETS = ["US_Equity", "Intl_Equity", "Bonds", "Gold", "REITs"]
 OUTPUT_DIR = Path(__file__).resolve().parent / "outputs"
@@ -41,10 +41,10 @@ def make_synthetic_returns() -> pd.DataFrame:
 
     correlation = np.array(
         [
-            [1.00, 0.75, -0.10, 0.05, 0.60],
-            [0.75, 1.00, -0.05, 0.10, 0.55],
-            [-0.10, -0.05, 1.00, 0.15, 0.05],
-            [0.05, 0.10, 0.15, 1.00, 0.10],
+            [1.00, -0.70, -0.10, 0.05, 0.60],
+            [-0.70, 1.00, -0.05, 0.10, 0.55],
+            [-0.10, -0.05, 1.00, -0.15, 0.05],
+            [0.05, 0.10, -0.15, 1.00, 0.10],
             [0.60, 0.55, 0.05, 0.10, 1.00],
         ]
     )
